@@ -1,0 +1,14 @@
+import java.util.*;
+//Bill of Items
+public class totalcost{
+public static void main(String args[]){
+Scanner tc=new Scanner (System.in);
+float pencil = tc.nextFloat();
+float pen =tc.nextFloat();
+float eraser = tc.nextFloat();
+System.out.println("Bill is =" + total);
+//Add on 18% tax
+float newTotal = total + (0.18f* total);
+System.out.println("Bill 18% tax =" +newTotal);
+}
+}
