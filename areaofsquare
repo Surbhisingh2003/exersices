@@ -1,0 +1,8 @@
+import java.util.*;
+public class square{
+public static void main(String args[]){
+Scnner sq = new Scanner (System.in);
+int area = side*side;
+System.out.println("area of square is ="+ area);
+}
+}
